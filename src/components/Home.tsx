@@ -252,7 +252,7 @@ const Home: React.FC = () => {
     };
   });
 
-  const testId = "5asxxx555d65";
+  // const testId = "5asxxx555d65";
 
   return (
     <>
@@ -273,9 +273,9 @@ const Home: React.FC = () => {
         />
       </Form>
       <FormComponent />
-      <Button type="primary" onClick={() => deleteCar(testId)}>
+      {/* <Button type="primary" onClick={() => deleteCar(testId)}>
         Post
-      </Button>
+      </Button> */}
     </>
   );
 };
